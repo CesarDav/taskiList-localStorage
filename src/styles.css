@@ -1,0 +1,53 @@
+.container {
+  height: 100vh;
+  display: flex;
+  background: linear-gradient(#c33764, #1d2671);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerForm {
+  max-width: 400px;
+  box-shadow: 0 0 10px gray;
+  width: 80%;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+@media (max-width: 600px) {
+  .containerForm {
+    width: 100%;
+  }
+}
+
+.containerSignUp {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+}
+.formContainer input {
+  margin: 10px;
+}
+input[type="email"],
+input[type="password"] {
+  padding: 15px;
+  border: none;
+  background: #f1f1f1;
+}
+
+.formContainer button {
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  background: rgb(255, 84, 112);
+  border-radius: 5px;
+  color: white;
+}
